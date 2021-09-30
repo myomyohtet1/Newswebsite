@@ -1,0 +1,46 @@
+*{
+	margin:0;
+}
+
+body{
+	background:url('https://thumbs.dreamstime.com/b/coffee-shop-blur-background-bokeh-image-51061185.jpg');
+}
+
+.container{
+	width:500px;
+	height:300px;
+	background:rgba(144,112,0,0.8);
+
+	margin-top:180px;
+	margin-left:450px;
+	position:absolute;
+}
+
+.container h1{
+	color:#a5e6b6;
+	font-variant:small-caps;
+	text-align:center;
+	
+
+}
+
+.container p{
+	color:#a5e6b6;
+	font-size:18px;
+	text-transform: capitalize;
+	text-align:justify;
+	padding:0 10px;
+}
+
+.container button{
+	background-color:#a5e6b6;
+	font-size:18px;
+	font-variant:small-caps;
+	padding:5px;
+	border:3px inset silver;
+}
+
+.container button:hover{
+	padding:8px;
+	transition:0.5s;
+}

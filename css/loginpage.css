@@ -1,0 +1,62 @@
+*{
+	margin:0;
+}
+
+body{
+	background:url('../img/newspaper.jpg');
+	background-position:center;
+
+}
+
+.container{
+	width:500px;
+	height:300px;
+	background-color:rgba(11,21,59,0.8);
+	left:480px;
+	top:150px;
+
+	position:absolute;
+	position:relative;
+}
+
+.container h1,.container p{
+	color:#fff;
+	text-align: center;
+	text-shadow:2px -2px 4px black;
+}
+
+table{
+	top:100px;
+	left:100px;
+
+	/*position:absolute;*/
+}
+
+table label{
+	color:#fff;
+	font-size:20px;
+	padding-bottom:10px;
+
+}
+
+table input{
+	padding:5px;
+	border:3px inset silver;
+}
+
+button[type="submit"]{
+	font-size:15px;
+	padding:8px;
+	text-shadow:2px -2px 4px black;
+	
+}
+
+button:hover{
+	font-size:18px;
+}
+
+a{
+	text-decoration:None;
+	font-size:18px;
+	color: #2e8f82;
+}
